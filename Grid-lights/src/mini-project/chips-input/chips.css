@@ -1,0 +1,30 @@
+.input-div {
+  width: 70%;
+}
+.input-val {
+  width: 100%;
+  height: 50px;
+  padding: 3px 15px;
+}
+input::placeholder {
+  font-size: 15px;
+}
+span {
+  font-size: 10px;
+}
+.chips-box {
+  border-radius: 40%;
+  border: 1px solid black;
+  background-color: aliceblue;
+  padding: 6px 10px;
+}
+.chips {
+  width: 80%;
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+span {
+  cursor: pointer;
+}
