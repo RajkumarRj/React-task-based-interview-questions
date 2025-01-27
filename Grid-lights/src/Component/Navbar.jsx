@@ -15,6 +15,13 @@ const Navbar = () => {
       <Link to="/chip">
         <button>Chips</button>
       </Link>
+      <Link to="/todo-list">
+        <button>Todo List</button>
+      </Link>
+
+      <Link to="/nested-comments">
+        <button>Nested Comments</button>
+      </Link>
     </nav>
   );
 };

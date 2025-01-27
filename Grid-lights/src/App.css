@@ -1,3 +1,8 @@
+@import "tailwindcss";
+
+input {
+  border: 2px solid black;
+}
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -87,4 +92,46 @@ button:hover {
 button:active {
   position: relative;
   top: 1px;
+}
+
+.input-feild input {
+  width: 600px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 3px 15px;
+}
+
+.buttons {
+  padding: 10px;
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+.buttons button {
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.todos-field {
+  width: 600px;
+}
+.list-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.list-field button {
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.list-field button:hover {
+  transform: scale(1.2);
 }
